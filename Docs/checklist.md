@@ -94,17 +94,17 @@
 ## Phase 3: 배포 및 최적화
 
 ### 도메인 설정 및 배포
-- [ ] Vercel에 프론트엔드 배포
+- [x] Vercel에 프론트엔드 배포 - **완료 (2025-12-08)**
 - [ ] 개인 도메인 연결
-> **커밋 포인트 10**: "프론트엔드 배포 완료"
+> **커밋 포인트 10**: "프론트엔드 배포 완료" - **완료 (2025-12-08)**
 
-- [ ] Firebase 프로젝트 생성 및 설정 (사용자 작업 필요)
-- [ ] SQLite에서 Firestore로 데이터베이스 전환 (`DB_TYPE=firestore`) (사용자 작업 필요)
-- [ ] Firebase 환경 변수 설정 (FIREBASE_PROJECT_ID, FIREBASE_CREDENTIALS_PATH) (사용자 작업 필요)
+- [ ] Firebase 프로젝트 생성 및 설정 (사용자 작업 필요) - Railway 배포로 대체 진행 중
+- [ ] SQLite에서 Firestore로 데이터베이스 전환 (`DB_TYPE=firestore`) (사용자 작업 필요) - 초기 배포는 SQLite 사용
+- [ ] Firebase 환경 변수 설정 (FIREBASE_PROJECT_ID, FIREBASE_CREDENTIALS_PATH) (사용자 작업 필요) - Railway 배포로 대체
 - [x] Firebase Repository 구현 (Firestore 클라이언트) - **완료 (2025-11-26)**
 - [x] 데이터 마이그레이션 스크립트 작성 (SQLite → Firestore) - **완료 (2025-11-26)**
-- [ ] Firebase Cloud Functions 또는 별도 서버로 백엔드 배포 (사용자 작업 필요)
-- [ ] 환경변수 및 API 키 설정 (사용자 작업 필요)
+- [x] Firebase Cloud Functions 또는 별도 서버로 백엔드 배포 (사용자 작업 필요) - **Railway로 배포 진행 중 (2025-12-08)**
+- [x] 환경변수 및 API 키 설정 (사용자 작업 필요) - **Railway에서 설정 진행 중 (2025-12-08)**
 - [x] 배포 가이드 문서 작성 - **완료 (2025-11-26)**
 - [x] 배포 설정 파일 생성 (railway.json, render.yaml, vercel.json) - **완료 (2025-11-26)**
 - [x] 빠른 배포 가이드 작성 - **완료 (2025-11-26)**

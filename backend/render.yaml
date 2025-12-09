@@ -8,11 +8,9 @@ services:
       - key: OPENAI_API_KEY
         sync: false
       - key: DB_TYPE
-        value: firestore
-      - key: FIREBASE_PROJECT_ID
-        sync: false
-      - key: FIREBASE_CREDENTIALS_PATH
-        sync: false
+        value: sqlite
+      - key: CORS_ORIGINS
+        value: https://frontend-83k5hznuf-bora-kims-projects.vercel.app
       - key: APP_ENV
         value: production
       - key: DEBUG
